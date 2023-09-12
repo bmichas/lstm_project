@@ -13,13 +13,13 @@ This projects was created to make fairy tales using LSTM
 
 ### Train
 
-- To train just type in your terminal: python train.py
+- To train just type in your terminal: `python train.py`
 
 ### Predict
 
-- To predict just type in your terminal: python main.py
+- To predict just type in your terminal: `python main.py`
 
 ### DOCKER
 
 - To predict just type in your terminal: `docker build -t lstm_project .`
-- To run project: `docker run -it lsttm_project`
+- To run project: `docker run -it lstm_project`
