@@ -106,10 +106,7 @@ class myLSTM():
         return np.array(vector_sequences, dtype=np.int32)
 
 
-    def predict(self):
-        pattern = 'dawno dawno temu w odległej krainie żyła sobie dziewczynka ktora zbierała pyszne jagody'
-        # pattern = 'dawno dawno temu w odległej krainie żyła sobie księżniczka'
-        num_words_to_generate = 100
+    def predict(self, pattern, num_words_to_generate):
         max_len = 20
         generated_text = pattern
         for _ in range(num_words_to_generate):
