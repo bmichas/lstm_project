@@ -21,5 +21,5 @@ This projects was created to make fairy tales using LSTM
 
 ### DOCKER
 
-- To predict just type in your terminal: `docker build -t lstm_project .`
+- To build docker just type in your terminal: `docker build -t lstm_project .`
 - To run project: `docker run -it lstm_project`
